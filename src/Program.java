@@ -13,9 +13,9 @@ public class Program {
         for (int i = 0; i < 5; i++){
             int r = random.nextInt(3);
             if (r == 0) {
-                björnar.add(new Brunbjörn((i + 1) * 2));
+                björnar.add(new Brun((i + 1) * 2));
             } else if (r == 1) {
-                björnar.add(new Grizzlybjörn((i + 1) * 2));
+                björnar.add(new Grizzly((i + 1) * 2));
             } else {
                 björnar.add(new Panda((i + 1) * 2));
             }
